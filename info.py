@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '25256497'))
-API_HASH = environ.get('API_HASH', '7640ddb9e5b9ff423adcab5dd81ae2f2')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '25529076'))
+API_HASH = environ.get('API_HASH', 'b8109a26ed1ba595aa5d70d0e38c3806')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6801791552:AAH_VorqlKIWkvvS24KYAVljJbX1081os2A")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -53,7 +53,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'v1')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
